@@ -1,0 +1,359 @@
+object frmClientes: TfrmClientes
+  Left = 0
+  Top = 0
+  Caption = 'Cadastro de Clientes'
+  ClientHeight = 464
+  ClientWidth = 739
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  OnClose = FormClose
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 24
+    Top = 101
+    Width = 47
+    Height = 13
+    Caption = 'CUST_NO'
+    FocusControl = DBEdit1
+  end
+  object Label2: TLabel
+    Left = 164
+    Top = 101
+    Width = 55
+    Height = 13
+    Caption = 'CUSTOMER'
+    FocusControl = DBEdit2
+  end
+  object Label3: TLabel
+    Left = 424
+    Top = 101
+    Width = 83
+    Height = 13
+    Caption = 'CONTACT_FIRST'
+    FocusControl = DBEdit3
+  end
+  object Label4: TLabel
+    Left = 24
+    Top = 141
+    Width = 78
+    Height = 13
+    Caption = 'CONTACT_LAST'
+    FocusControl = DBEdit4
+  end
+  object Label5: TLabel
+    Left = 224
+    Top = 138
+    Width = 55
+    Height = 13
+    Caption = 'PHONE_NO'
+    FocusControl = DBEdit5
+  end
+  object Label6: TLabel
+    Left = 24
+    Top = 178
+    Width = 80
+    Height = 13
+    Caption = 'ADDRESS_LINE1'
+    FocusControl = DBEdit6
+  end
+  object Label7: TLabel
+    Left = 237
+    Top = 178
+    Width = 80
+    Height = 13
+    Caption = 'ADDRESS_LINE2'
+    FocusControl = DBEdit7
+  end
+  object Label8: TLabel
+    Left = 24
+    Top = 218
+    Width = 23
+    Height = 13
+    Caption = 'CITY'
+    FocusControl = DBEdit8
+  end
+  object Label9: TLabel
+    Left = 359
+    Top = 221
+    Width = 88
+    Height = 13
+    Caption = 'STATE_PROVINCE'
+    FocusControl = DBEdit9
+  end
+  object Label10: TLabel
+    Left = 24
+    Top = 272
+    Width = 48
+    Height = 13
+    Caption = 'COUNTRY'
+    FocusControl = DBEdit10
+  end
+  object Label11: TLabel
+    Left = 564
+    Top = 221
+    Width = 72
+    Height = 13
+    Caption = 'POSTAL_CODE'
+    FocusControl = DBEdit11
+  end
+  object Label12: TLabel
+    Left = 248
+    Top = 272
+    Width = 48
+    Height = 13
+    Caption = 'ON_HOLD'
+    FocusControl = DBEdit12
+  end
+  object DBEdit1: TDBEdit
+    Left = 24
+    Top = 117
+    Width = 134
+    Height = 21
+    DataField = 'CUST_NO'
+    DataSource = dstClientes
+    TabOrder = 0
+  end
+  object DBEdit2: TDBEdit
+    Left = 164
+    Top = 117
+    Width = 254
+    Height = 21
+    DataField = 'CUSTOMER'
+    DataSource = dstClientes
+    TabOrder = 1
+  end
+  object DBEdit3: TDBEdit
+    Left = 424
+    Top = 117
+    Width = 253
+    Height = 21
+    DataField = 'CONTACT_FIRST'
+    DataSource = dstClientes
+    TabOrder = 2
+  end
+  object DBEdit4: TDBEdit
+    Left = 24
+    Top = 154
+    Width = 194
+    Height = 21
+    DataField = 'CONTACT_LAST'
+    DataSource = dstClientes
+    TabOrder = 3
+  end
+  object DBEdit5: TDBEdit
+    Left = 224
+    Top = 154
+    Width = 264
+    Height = 21
+    DataField = 'PHONE_NO'
+    DataSource = dstClientes
+    TabOrder = 4
+  end
+  object DBEdit6: TDBEdit
+    Left = 24
+    Top = 197
+    Width = 207
+    Height = 21
+    DataField = 'ADDRESS_LINE1'
+    DataSource = dstClientes
+    TabOrder = 5
+  end
+  object DBEdit7: TDBEdit
+    Left = 237
+    Top = 197
+    Width = 228
+    Height = 21
+    DataField = 'ADDRESS_LINE2'
+    DataSource = dstClientes
+    TabOrder = 6
+  end
+  object DBEdit8: TDBEdit
+    Left = 24
+    Top = 237
+    Width = 329
+    Height = 21
+    DataField = 'CITY'
+    DataSource = dstClientes
+    TabOrder = 7
+  end
+  object DBEdit9: TDBEdit
+    Left = 359
+    Top = 237
+    Width = 199
+    Height = 21
+    DataField = 'STATE_PROVINCE'
+    DataSource = dstClientes
+    TabOrder = 8
+  end
+  object DBEdit10: TDBEdit
+    Left = 24
+    Top = 288
+    Width = 199
+    Height = 21
+    DataField = 'COUNTRY'
+    DataSource = dstClientes
+    TabOrder = 9
+  end
+  object DBEdit11: TDBEdit
+    Left = 564
+    Top = 237
+    Width = 160
+    Height = 21
+    DataField = 'POSTAL_CODE'
+    DataSource = dstClientes
+    TabOrder = 10
+  end
+  object DBEdit12: TDBEdit
+    Left = 248
+    Top = 288
+    Width = 17
+    Height = 21
+    DataField = 'ON_HOLD'
+    DataSource = dstClientes
+    TabOrder = 11
+  end
+  object DBGrid1: TDBGrid
+    Left = 24
+    Top = 315
+    Width = 701
+    Height = 142
+    DataSource = dstClientes
+    TabOrder = 12
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+    Columns = <
+      item
+        Expanded = False
+        FieldName = 'CUST_NO'
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'CUSTOMER'
+        Width = 97
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'CONTACT_FIRST'
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'CONTACT_LAST'
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'PHONE_NO'
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'ADDRESS_LINE1'
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'ADDRESS_LINE2'
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'CITY'
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'STATE_PROVINCE'
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'COUNTRY'
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'POSTAL_CODE'
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'ON_HOLD'
+        Visible = True
+      end>
+  end
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 739
+    Height = 95
+    Align = alTop
+    TabOrder = 13
+    object DBNavigator1: TDBNavigator
+      Left = 485
+      Top = 14
+      Width = 240
+      Height = 25
+      DataSource = dstClientes
+      TabOrder = 0
+    end
+    object btnNovo: TBitBtn
+      Left = 8
+      Top = 15
+      Width = 75
+      Height = 75
+      Caption = 'Novo'
+      TabOrder = 1
+    end
+    object btnEditar: TBitBtn
+      Left = 89
+      Top = 15
+      Width = 75
+      Height = 75
+      Caption = 'Editar'
+      TabOrder = 2
+    end
+    object btnGravar: TBitBtn
+      Left = 182
+      Top = 15
+      Width = 75
+      Height = 75
+      Caption = 'Gravar'
+      TabOrder = 3
+    end
+    object btnExcluir: TBitBtn
+      Left = 263
+      Top = 15
+      Width = 75
+      Height = 75
+      Caption = 'Excluir'
+      TabOrder = 4
+    end
+    object btnCancelar: TBitBtn
+      Left = 352
+      Top = 15
+      Width = 75
+      Height = 75
+      Caption = 'Cancelar'
+      TabOrder = 5
+    end
+  end
+  object dstClientes: TDataSource
+    DataSet = DM.qryClientes
+    Left = 504
+    Top = 192
+  end
+end

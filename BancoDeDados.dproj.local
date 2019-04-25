@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/04/19 11:48:09.000.790,=C:\Users\Computador Acer\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/04/19 11:49:14.000.263,C:\Users\Computador Acer\Desktop\delphi\Cadastro de Clientes com BD Interbase\UnitPrincipal.pas=C:\Users\Computador Acer\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/04/19 11:49:14.000.263,C:\Users\Computador Acer\Desktop\delphi\Cadastro de Clientes com BD Interbase\UnitPrincipal.dfm=C:\Users\Computador Acer\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2019/04/19 11:49:49.000.715,C:\Users\Computador Acer\Desktop\delphi\Cadastro de Clientes com BD Interbase\BancoDeDados.dproj=C:\Users\Computador Acer\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2019/04/19 11:52:32.000.763,=C:\Users\Computador Acer\Desktop\delphi\Cadastro de Clientes com BD Interbase\Unit1.pas</Transaction>
+    <Transaction>2019/04/19 11:53:46.000.953,C:\Users\Computador Acer\Desktop\delphi\Cadastro de Clientes com BD Interbase\UnitClientes.dfm=C:\Users\Computador Acer\Desktop\delphi\Cadastro de Clientes com BD Interbase\Unit1.dfm</Transaction>
+    <Transaction>2019/04/19 11:53:46.000.953,C:\Users\Computador Acer\Desktop\delphi\Cadastro de Clientes com BD Interbase\UnitClientes.pas=C:\Users\Computador Acer\Desktop\delphi\Cadastro de Clientes com BD Interbase\Unit1.pas</Transaction>
+    <Transaction>2019/04/19 12:36:31.000.198,=C:\Users\Computador Acer\Desktop\delphi\Cadastro de Clientes com BD Interbase\Unit1.pas</Transaction>
+    <Transaction>2019/04/19 12:37:28.000.881,C:\Users\Computador Acer\Desktop\delphi\Cadastro de Clientes com BD Interbase\UnitDM.dfm=C:\Users\Computador Acer\Desktop\delphi\Cadastro de Clientes com BD Interbase\Unit1.dfm</Transaction>
+    <Transaction>2019/04/19 12:37:28.000.881,C:\Users\Computador Acer\Desktop\delphi\Cadastro de Clientes com BD Interbase\UnitDM.pas=C:\Users\Computador Acer\Desktop\delphi\Cadastro de Clientes com BD Interbase\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
